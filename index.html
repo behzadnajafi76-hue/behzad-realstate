@@ -5,543 +5,353 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>پارسیان | املاک تخصصی</title>
-
-<meta name="description" content="پارسیان | املاک تخصصی در منطقه ۲۲ و شهرک خرازی تهران">
+<meta name="description" content="پارسیان | املاک تخصصی منطقه ۲۲ و پروژه‌های منتخب تهران">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-html{
-    scroll-behavior:smooth;
-}
-
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
 body{
-    font-family:"Vazirmatn",sans-serif;
-    background:#0f1713;
-    color:#fff;
-    line-height:1.9;
+font-family:"Vazirmatn",sans-serif;
+background:#0f1713;
+color:#fff;
+line-height:1.9
 }
+a{text-decoration:none;color:inherit}
+.container{width:min(1150px,92%);margin:auto}
 
-a{
-    text-decoration:none;
-    color:inherit;
-}
-
-.container{
-    width:min(1150px,92%);
-    margin:auto;
-}
-
-/* HEADER */
 header{
-    position:sticky;
-    top:0;
-    z-index:1000;
-    background:rgba(15,23,19,.96);
-    backdrop-filter:blur(10px);
-    border-bottom:1px solid rgba(212,175,55,.18);
+position:sticky;
+top:0;
+z-index:1000;
+background:rgba(15,23,19,.97);
+backdrop-filter:blur(10px);
+border-bottom:1px solid rgba(212,175,55,.18)
 }
-
 .nav{
-    min-height:78px;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    gap:20px;
+min-height:78px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:20px
 }
-
-.logo{
-    display:flex;
-    align-items:center;
-    gap:12px;
-}
-
+.logo{display:flex;align-items:center;gap:12px}
 .logo img{
-    width:58px;
-    height:58px;
-    object-fit:contain;
-    border-radius:8px;
+width:58px;
+height:58px;
+object-fit:contain;
+border-radius:8px
 }
-
-.logo-text{
-    display:flex;
-    flex-direction:column;
-    line-height:1.3;
-}
-
-.logo-text strong{
-    font-size:20px;
-    color:#d4af37;
-}
-
+.logo-text{display:flex;flex-direction:column;line-height:1.3}
+.logo-text strong{font-size:20px;color:#d4af37}
 .logo-text small{
-    font-size:10px;
-    color:#ddd;
-    direction:ltr;
-    letter-spacing:1px;
+font-size:10px;
+color:#ddd;
+direction:ltr;
+letter-spacing:1px
 }
-
-nav{
-    display:flex;
-    gap:22px;
-    align-items:center;
-}
-
-nav a{
-    color:#eee;
-    font-size:14px;
-    transition:.25s;
-}
-
-nav a:hover{
-    color:#d4af37;
-}
+nav{display:flex;gap:22px;align-items:center}
+nav a{color:#eee;font-size:14px;transition:.25s}
+nav a:hover{color:#d4af37}
 
 .btn{
-    display:inline-flex;
-    align-items:center;
-    justify-content:center;
-    padding:12px 22px;
-    border-radius:8px;
-    border:1px solid #d4af37;
-    color:#d4af37;
-    transition:.25s;
-    cursor:pointer;
-    font-family:inherit;
+display:inline-flex;
+align-items:center;
+justify-content:center;
+padding:12px 22px;
+border-radius:8px;
+border:1px solid #d4af37;
+color:#d4af37;
+transition:.25s;
+cursor:pointer;
+font-family:inherit
 }
+.btn:hover{background:#d4af37;color:#111}
+.btn.gold{background:#d4af37;color:#111}
+.btn.gold:hover{background:#e4c45c}
 
-.btn:hover{
-    background:#d4af37;
-    color:#111;
-}
-
-.btn.gold{
-    background:#d4af37;
-    color:#111;
-}
-
-.btn.gold:hover{
-    background:#e4c45c;
-}
-
-/* HERO */
 .hero{
-    min-height:680px;
-    display:flex;
-    align-items:center;
-    position:relative;
-    background:
-        linear-gradient(rgba(10,17,13,.72),rgba(10,17,13,.9)),
-        url("images/hero.jpg") center/cover;
+min-height:680px;
+display:flex;
+align-items:center;
+background:
+linear-gradient(rgba(10,17,13,.72),rgba(10,17,13,.92)),
+url("images/hero.jpg") center/cover
 }
-
-.hero-content{
-    max-width:760px;
-}
-
+.hero-content{max-width:780px}
 .eyebrow{
-    color:#d4af37;
-    font-size:13px;
-    letter-spacing:1px;
-    margin-bottom:15px;
+color:#d4af37;
+font-size:13px;
+letter-spacing:1px;
+margin-bottom:15px
 }
-
 .hero h1{
-    font-size:clamp(32px,5vw,58px);
-    line-height:1.35;
-    margin-bottom:20px;
+font-size:clamp(32px,5vw,58px);
+line-height:1.35;
+margin-bottom:20px
 }
+.hero h1 span{color:#d4af37}
+.hero p{color:#ddd;max-width:680px;font-size:17px;margin-bottom:30px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px}
 
-.hero h1 span{
-    color:#d4af37;
-}
+section{padding:85px 0}
+.section-head{margin-bottom:38px}
+.section-head h2{font-size:32px;margin-bottom:10px}
+.section-head p{color:#aaa}
 
-.hero p{
-    color:#ddd;
-    max-width:650px;
-    font-size:17px;
-    margin-bottom:30px;
-}
-
-.hero-actions{
-    display:flex;
-    flex-wrap:wrap;
-    gap:12px;
-}
-
-/* SECTIONS */
-section{
-    padding:90px 0;
-}
-
-.section-head{
-    margin-bottom:40px;
-}
-
-.section-head h2{
-    font-size:32px;
-    margin-bottom:10px;
-}
-
-.section-head p{
-    color:#aaa;
-}
-
-/* ABOUT */
 .about-grid{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:40px;
-    align-items:center;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+align-items:center
 }
-
 .profile{
-    width:100%;
-    border-radius:16px;
-    display:block;
-    border:1px solid rgba(212,175,55,.2);
+width:100%;
+border-radius:16px;
+display:block;
+border:1px solid rgba(212,175,55,.2)
 }
+.about-text p{color:#ccc;margin-bottom:18px}
 
-.about-text p{
-    color:#ccc;
-    margin-bottom:18px;
-}
-
-/* STATS */
 .stats{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:18px;
-    margin-top:30px;
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:18px;
+margin-top:30px
 }
-
 .stat{
-    background:#16211b;
-    border:1px solid rgba(212,175,55,.16);
-    padding:22px;
-    border-radius:12px;
-    text-align:center;
+background:#16211b;
+border:1px solid rgba(212,175,55,.16);
+padding:22px;
+border-radius:12px;
+text-align:center
 }
+.stat strong{display:block;font-size:30px;color:#d4af37}
+.stat span{color:#aaa;font-size:13px}
 
-.stat strong{
-    display:block;
-    font-size:30px;
-    color:#d4af37;
-}
-
-.stat span{
-    color:#aaa;
-    font-size:13px;
-}
-
-/* PROJECTS */
-.projects{
-    background:#0c120f;
-}
-
+.projects{background:#0c120f}
 .cards{
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:25px;
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:25px
 }
-
 .card{
-    background:#16211b;
-    border:1px solid rgba(212,175,55,.15);
-    border-radius:15px;
-    overflow:hidden;
+background:#16211b;
+border:1px solid rgba(212,175,55,.15);
+border-radius:15px;
+overflow:hidden
 }
-
 .card img{
-    width:100%;
-    height:260px;
-    object-fit:cover;
-    display:block;
+width:100%;
+height:260px;
+object-fit:cover;
+display:block
 }
-
-.card-body{
-    padding:25px;
-}
-
-.card-body h3{
-    color:#d4af37;
-    font-size:23px;
-    margin-bottom:10px;
-}
-
-.card-body p{
-    color:#ccc;
-    margin-bottom:18px;
-}
-
-.card-meta{
-    display:flex;
-    flex-wrap:wrap;
-    gap:10px;
-}
-
+.card-body{padding:25px}
+.card-body h3{color:#d4af37;font-size:23px;margin-bottom:10px}
+.card-body p{color:#ccc;margin-bottom:18px}
+.card-meta{display:flex;flex-wrap:wrap;gap:10px}
 .card-meta span{
-    border:1px solid rgba(212,175,55,.2);
-    padding:6px 10px;
-    border-radius:6px;
-    color:#ddd;
-    font-size:12px;
+border:1px solid rgba(212,175,55,.2);
+padding:6px 10px;
+border-radius:6px;
+color:#ddd;
+font-size:12px
 }
 
-/* LISTINGS */
-.filters{
-    display:flex;
-    flex-wrap:wrap;
-    gap:10px;
-    margin-bottom:30px;
+.project-detail{
+background:#111a15;
+border-top:1px solid rgba(212,175,55,.08)
 }
+.detail-box{
+background:#16211b;
+border:1px solid rgba(212,175,55,.14);
+border-radius:15px;
+padding:30px;
+margin-top:25px
+}
+.detail-box h3{color:#d4af37;margin-bottom:15px;font-size:24px}
+.detail-box h4{color:#d4af37;margin:25px 0 10px}
+.detail-box p{color:#ccc;margin-bottom:12px}
+.detail-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:15px;
+margin-top:20px
+}
+.info{
+background:#0f1713;
+border:1px solid rgba(255,255,255,.08);
+border-radius:10px;
+padding:15px
+}
+.info strong{display:block;color:#d4af37;margin-bottom:5px}
+.info span{color:#ccc;font-size:14px}
 
-.filter{
-    background:#16211b;
-    border:1px solid rgba(212,175,55,.2);
-    color:#ddd;
-    padding:9px 15px;
-    border-radius:7px;
-    font-family:inherit;
+.price-box{
+background:#0f1713;
+border:1px solid rgba(212,175,55,.2);
+border-radius:12px;
+padding:20px;
+margin-top:18px
+}
+.price-box strong{color:#d4af37}
+.price-line{
+display:flex;
+justify-content:space-between;
+gap:15px;
+padding:9px 0;
+border-bottom:1px solid rgba(255,255,255,.06);
+color:#ddd
+}
+.price-line:last-child{border-bottom:0}
+.update{
+font-size:12px;
+color:#888;
+margin-top:12px
 }
 
 .listing-grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:20px;
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px
 }
-
 .listing{
-    background:#16211b;
-    border-radius:13px;
-    overflow:hidden;
-    border:1px solid rgba(212,175,55,.14);
+background:#16211b;
+border-radius:13px;
+overflow:hidden;
+border:1px solid rgba(212,175,55,.14)
 }
-
 .listing img{
-    width:100%;
-    height:210px;
-    object-fit:cover;
+width:100%;
+height:210px;
+object-fit:cover
 }
-
-.listing-body{
-    padding:20px;
-}
-
-.listing-body h3{
-    color:#fff;
-    margin-bottom:8px;
-}
-
+.listing-body{padding:20px}
+.listing-body h3{color:#fff;margin-bottom:8px}
 .price{
-    color:#d4af37;
-    font-size:18px;
-    font-weight:700;
-    margin:12px 0;
+color:#d4af37;
+font-size:18px;
+font-weight:700;
+margin:12px 0
 }
+.updated{color:#888;font-size:11px}
 
-.updated{
-    color:#888;
-    font-size:11px;
-}
-
-/* VOICE */
-.voice{
-    background:#16211b;
-}
-
+.voice{background:#16211b}
 .voice-box{
-    border:1px solid rgba(212,175,55,.18);
-    border-radius:15px;
-    padding:30px;
-    text-align:center;
+border:1px solid rgba(212,175,55,.18);
+border-radius:15px;
+padding:30px;
+text-align:center
 }
+.voice-box p{color:#ccc;margin-bottom:20px}
 
-.voice-box p{
-    color:#ccc;
-    margin-bottom:20px;
-}
-
-/* FORM */
 .form-box{
-    max-width:750px;
-    margin:auto;
-    background:#16211b;
-    border:1px solid rgba(212,175,55,.15);
-    padding:30px;
-    border-radius:15px;
+max-width:750px;
+margin:auto;
+background:#16211b;
+border:1px solid rgba(212,175,55,.15);
+padding:30px;
+border-radius:15px
 }
-
 .form-grid{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:15px;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:15px
 }
-
-input,
-select,
-textarea{
-    width:100%;
-    background:#0f1713;
-    border:1px solid rgba(255,255,255,.12);
-    color:#fff;
-    padding:13px;
-    border-radius:7px;
-    font-family:inherit;
+input,select,textarea{
+width:100%;
+background:#0f1713;
+border:1px solid rgba(255,255,255,.12);
+color:#fff;
+padding:13px;
+border-radius:7px;
+font-family:inherit
 }
+textarea{min-height:130px;resize:vertical}
+.full{grid-column:1/-1}
 
-textarea{
-    min-height:130px;
-    resize:vertical;
-}
-
-.full{
-    grid-column:1/-1;
-}
-
-/* CONTACT */
-.contact{
-    text-align:center;
-    background:#0c120f;
-}
-
+.contact{text-align:center;background:#0c120f}
 .contact p{
-    color:#bbb;
-    margin:15px auto 25px;
-    max-width:650px;
+color:#bbb;
+margin:15px auto 25px;
+max-width:650px
 }
 
-/* FOOTER */
 footer{
-    padding:30px 0;
-    border-top:1px solid rgba(212,175,55,.15);
-    background:#0a0f0c;
+padding:30px 0;
+border-top:1px solid rgba(212,175,55,.15);
+background:#0a0f0c
 }
-
 .footer-inner{
-    display:flex;
-    justify-content:space-between;
-    gap:20px;
-    align-items:center;
+display:flex;
+justify-content:space-between;
+gap:20px;
+align-items:center
 }
+footer strong{color:#d4af37}
+footer small{color:#777}
 
-footer strong{
-    color:#d4af37;
-}
-
-footer small{
-    color:#777;
-}
-
-/* FLOATING BUTTONS */
 .floating{
-    position:fixed;
-    left:18px;
-    bottom:85px;
-    z-index:900;
-    display:flex;
-    flex-direction:column;
-    gap:10px;
+position:fixed;
+left:18px;
+bottom:85px;
+z-index:900;
+display:flex;
+flex-direction:column;
+gap:10px
 }
-
 .float-btn{
-    width:48px;
-    height:48px;
-    border-radius:50%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    background:#d4af37;
-    color:#111;
-    font-weight:700;
-    box-shadow:0 5px 20px rgba(0,0,0,.3);
+width:48px;
+height:48px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+background:#d4af37;
+color:#111;
+font-weight:700;
+box-shadow:0 5px 20px rgba(0,0,0,.3)
 }
 
-/* MOBILE BAR */
 .mobile-bar{
-    display:none;
-    position:fixed;
-    bottom:0;
-    right:0;
-    left:0;
-    z-index:999;
-    background:#111914;
-    border-top:1px solid rgba(212,175,55,.2);
+display:none;
+position:fixed;
+bottom:0;
+right:0;
+left:0;
+z-index:999;
+background:#111914;
+border-top:1px solid rgba(212,175,55,.2)
 }
-
 .mobile-bar a{
-    flex:1;
-    text-align:center;
-    padding:12px 5px;
-    font-size:12px;
-    color:#ddd;
+flex:1;
+text-align:center;
+padding:12px 5px;
+font-size:12px;
+color:#ddd
 }
+.mobile-bar a:last-child{color:#d4af37}
 
-.mobile-bar a:last-child{
-    color:#d4af37;
-}
-
-/* RESPONSIVE */
 @media(max-width:800px){
-    nav{
-        display:none;
-    }
-
-    .about-grid,
-    .cards{
-        grid-template-columns:1fr;
-    }
-
-    .listing-grid{
-        grid-template-columns:1fr;
-    }
-
-    .stats{
-        grid-template-columns:1fr 1fr;
-    }
-
-    .form-grid{
-        grid-template-columns:1fr;
-    }
-
-    .full{
-        grid-column:auto;
-    }
-
-    .mobile-bar{
-        display:flex;
-    }
-
-    .floating{
-        bottom:70px;
-    }
-
-    .footer-inner{
-        flex-direction:column;
-        text-align:center;
-    }
+nav{display:none}
+.about-grid,.cards{grid-template-columns:1fr}
+.listing-grid{grid-template-columns:1fr}
+.stats{grid-template-columns:1fr 1fr}
+.detail-grid{grid-template-columns:1fr}
+.form-grid{grid-template-columns:1fr}
+.full{grid-column:auto}
+.mobile-bar{display:flex}
+.floating{bottom:70px}
+.footer-inner{flex-direction:column;text-align:center}
 }
-
 @media(max-width:500px){
-    .hero{
-        min-height:600px;
-    }
-
-    .stats{
-        grid-template-columns:1fr;
-    }
-
-    section{
-        padding:65px 0;
-    }
+.hero{min-height:600px}
+.stats{grid-template-columns:1fr}
+section{padding:65px 0}
 }
 </style>
 </head>
@@ -549,429 +359,591 @@ footer small{
 <body>
 
 <header>
-    <div class="container nav">
+<div class="container nav">
 
-        <a href="#" class="logo">
+<a href="#" class="logo">
 <img src="logo.jpg.jpg" alt="پارسیان | املاک تخصصی">
-            <div class="logo-text">
-                <strong>پارسیان</strong>
-                <small>PARSIAN REAL ESTATE</small>
-            </div>
-        </a>
+<div class="logo-text">
+<strong>پارسیان</strong>
+<small>PARSIAN REAL ESTATE</small>
+</div>
+</a>
 
-        <nav>
-            <a href="#about">درباره</a>
-            <a href="#projects">پروژه‌ها</a>
-            <a href="#listings">املاک</a>
-            <a href="#request">درخواست ملک</a>
-            <a href="#contact">تماس</a>
-        </nav>
+<nav>
+<a href="#about">درباره</a>
+<a href="#projects">پروژه‌ها</a>
+<a href="#kharazi">خرازی</a>
+<a href="#tandgouyan">تندگویان</a>
+<a href="#listings">املاک</a>
+<a href="#request">درخواست ملک</a>
+</nav>
 
-        <a class="btn" href="tel:09103920194">تماس با ما</a>
+<a class="btn" href="tel:09103920194">تماس با ما</a>
 
-    </div>
+</div>
 </header>
 
 <main>
 
 <section class="hero">
-    <div class="container">
-        <div class="hero-content">
+<div class="container">
+<div class="hero-content">
 
-            <div class="eyebrow">PARSIAN REAL ESTATE</div>
+<div class="eyebrow">PARSIAN REAL ESTATE</div>
 
-           <h1>ملک مناسب را <span>دقیق‌تر پیدا کن</span></h1>
+<h1>ملک مناسب را <span>دقیق‌تر پیدا کن</span></h1>
 
-            <p>
-                پارسیان، با تمرکز تخصصی بر بازار املاک
-                منطقه ۲۲ و پروژه‌های منتخب تهران.
-            </p>
+<p>
+پارسیان، با تمرکز تخصصی بر بازار املاک منطقه ۲۲
+و پروژه‌های منتخب تهران.
+</p>
 
-            <div class="hero-actions">
-                <a class="btn gold" href="#listings">دنبال ملک هستم</a>
-                <a class="btn" href="#request">مالک هستم</a>
-            </div>
+<div class="hero-actions">
+<a class="btn gold" href="#listings">دنبال ملک هستم</a>
+<a class="btn" href="#request">مالک هستم</a>
+</div>
 
-        </div>
-    </div>
+</div>
+</div>
 </section>
 
 <section id="about">
-    <div class="container">
+<div class="container">
+<div class="about-grid">
 
-        <div class="about-grid">
+<div>
+<img class="profile" src="images/profile.jpg" alt="بهزاد پارسیان">
+</div>
 
-            <div>
-                <img
-                    class="profile"
-                    src="images/profile.jpg"
-                    alt="بهزاد پارسیان"
-                >
-            </div>
+<div class="about-text">
 
-            <div class="about-text">
+<div class="eyebrow">PARSIAN REAL ESTATE</div>
 
-                <div class="eyebrow">PARSIAN REAL ESTATE</div>
+<h2>پارسیان | املاک تخصصی</h2>
 
-                <h2>پارسیان | املاک تخصصی</h2>
+<p>
+من <strong>بهزاد پارسیان</strong> هستم؛ مشاور تخصصی املاک
+در پروژه‌ها و محدوده‌های منتخب منطقه ۲۲ و شهرک خرازی تهران.
+</p>
 
-                <p>
-                    من <strong>بهزاد پارسیان</strong> هستم؛
-                    مشاور تخصصی املاک در پروژه‌ها و محدوده‌های منتخب
-                    منطقه ۲۲ و شهرک خرازی تهران.
-                </p>
+<p>
+هدف پارسیان، ارائه اطلاعات دقیق‌تر و کمک به انتخاب آگاهانه‌تر
+ملک، متناسب با شرایط و نیاز خریدار است.
+</p>
 
-                <p>
-                    هدف پارسیان، ارائه اطلاعات دقیق‌تر و کمک به انتخاب
-                    آگاهانه‌تر ملک، متناسب با شرایط و نیاز خریدار است.
-                </p>
+<div class="stats">
 
-                <div class="stats">
+<div class="stat">
+<strong>۴۴</strong>
+<span>بلوک شهرک خرازی</span>
+</div>
 
-                    <div class="stat">
-                        <strong>۴۴</strong>
-                        <span>بلوک شهرک خرازی</span>
-                    </div>
+<div class="stat">
+<strong>۵</strong>
+<span>ردیف شهرک خرازی</span>
+</div>
 
-                    <div class="stat">
-                        <strong>۵</strong>
-                        <span>ردیف شهرک خرازی</span>
-                    </div>
+<div class="stat">
+<strong>۲۲</strong>
+<span>منطقه تخصصی</span>
+</div>
 
-                    <div class="stat">
-                        <strong>۲۲</strong>
-                        <span>منطقه تخصصی</span>
-                    </div>
+</div>
 
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
+</div>
+</div>
+</div>
 </section>
 
 <section id="projects" class="projects">
+<div class="container">
 
-    <div class="container">
+<div class="section-head">
+<div class="eyebrow">PROJECTS</div>
+<h2>پروژه‌های منتخب</h2>
+<p>اطلاعات پروژه‌ها بر اساس وضعیت واقعی هر پروژه تکمیل و به‌روزرسانی می‌شود.</p>
+</div>
 
-        <div class="section-head">
-            <div class="eyebrow">PROJECTS</div>
-            <h2>پروژه‌های منتخب</h2>
-            <p>
-                اطلاعات پروژه‌ها به‌صورت مرحله‌ای و بر اساس وضعیت واقعی
-                هر پروژه تکمیل و به‌روزرسانی می‌شود.
-            </p>
-        </div>
+<div class="cards">
 
-        <div class="cards">
+<article class="card">
+<img src="images/kharazi.jpg" alt="شهرک شهید خرازی">
+<div class="card-body">
+<h3>شهرک شهید خرازی</h3>
+<p>
+۴۴ بلوک در ۵ ردیف، با بررسی ساختار بلوک‌ها،
+واحدها، وضعیت پروژه و قیمت‌ها.
+</p>
+<div class="card-meta">
+<span>۴۴ بلوک</span>
+<span>۵ ردیف</span>
+<span>منطقه ۲۲</span>
+</div>
+<br>
+<a class="btn" href="#kharazi">مشاهده اطلاعات</a>
+</div>
+</article>
 
-            <article class="card">
+<article class="card">
+<img src="images/property1.jpg" alt="شهرک تندگویان">
+<div class="card-body">
+<h3>شهرک تندگویان</h3>
+<p>
+پروژه‌ای حدود ۷۰۰۰ واحدی با بخش‌های مختلف
+و وضعیت‌های ساخت متفاوت.
+</p>
+<div class="card-meta">
+<span>منطقه ۲۱</span>
+<span>حدود ۷۰۰۰ واحد</span>
+<span>متراژ پایه ۱۰۶ متر</span>
+</div>
+<br>
+<a class="btn" href="#tandgouyan">مشاهده اطلاعات</a>
+</div>
+</article>
 
-                <img src="images/kharazi.jpg" alt="شهرک شهید خرازی">
+</div>
+</div>
+</section>
 
-                <div class="card-body">
+<section id="kharazi" class="project-detail">
+<div class="container">
 
-                    <h3>شهرک شهید خرازی</h3>
+<div class="section-head">
+<div class="eyebrow">Kharazi</div>
+<h2>شهرک شهید خرازی</h2>
+<p>اطلاعات ساختاری، واحدها، وضعیت پروژه و قیمت‌های اعلام‌شده.</p>
+</div>
 
-                    <p>
-                        بررسی بلوک‌ها، پلان‌ها، شرایط واحدها،
-                        وضعیت پروژه و قیمت‌های روز.
-                    </p>
+<div class="detail-box">
 
-                    <div class="card-meta">
-                        <span>۴۴ بلوک</span>
-                        <span>۵ ردیف</span>
-                        <span>منطقه ۲۲ تهران</span>
-                    </div>
+<h3>ساختار شهرک</h3>
 
-                </div>
+<div class="detail-grid">
 
-            </article>
+<div class="info">
+<strong>تعداد بلوک</strong>
+<span>۴۴ بلوک</span>
+</div>
 
-            <article class="card">
+<div class="info">
+<strong>تعداد ردیف</strong>
+<span>۵ ردیف</span>
+</div>
 
-                <img src="images/property1.jpg" alt="شهرک تندگویان">
+<div class="info">
+<strong>ردیف اول</strong>
+<span>۱۲ بلوک، ۳۰ طبقه</span>
+</div>
 
-                <div class="card-body">
+<div class="info">
+<strong>ردیف دوم</strong>
+<span>۱۲ بلوک، ۲۵ طبقه</span>
+</div>
 
-                    <h3>شهرک تندگویان</h3>
+<div class="info">
+<strong>ردیف سوم</strong>
+<span>۸ بلوک، ۲۵ طبقه</span>
+</div>
 
-                    <p>
-                        معرفی بخش‌های مختلف پروژه، شرایط واحدها،
-                        وضعیت ساخت و اطلاعات قیمت.
-                    </p>
+<div class="info">
+<strong>ردیف چهارم</strong>
+<span>۸ بلوک، ۲۵ طبقه</span>
+</div>
 
-                    <div class="card-meta">
-                        <span>منطقه ۲۱ تهران</span>
-                        <span>حدود ۷۰۰۰ واحد</span>
-                        <span>پروژه چندبخشی</span>
-                    </div>
+<div class="info">
+<strong>ردیف پنجم</strong>
+<span>۴ بلوک، ۲۰ طبقه</span>
+</div>
 
-                </div>
+<div class="info">
+<strong>پارکینگ</strong>
+<span>۳ طبقه زیرزمین</span>
+</div>
 
-            </article>
+</div>
 
-        </div>
+<h4>اطلاعات واحدها</h4>
 
-    </div>
+<p>
+بخش قابل توجهی از واحدها دوخوابه هستند. متراژ واحدها بسته به بلوک
+و موقعیت آن‌ها متفاوت است.
+</p>
 
+<div class="detail-grid">
+
+<div class="info">
+<strong>A15 و A16</strong>
+<span>حدود ۱۳۴ متر، سه‌خوابه</span>
+</div>
+
+<div class="info">
+<strong>بلوک‌های A</strong>
+<span>واحدهای میانی حدود ۱۰۹ متر و گوشه حدود ۱۳۳ متر</span>
+</div>
+
+<div class="info">
+<strong>بلوک‌های B</strong>
+<span>میانی حدود ۱۱۸ متر؛ گوشه حدود ۱۰۹ تا ۱۱۴ متر</span>
+</div>
+
+<div class="info">
+<strong>بلوک‌های D</strong>
+<span>میانی حدود ۱۰۶ تا ۱۰۹ متر؛ گوشه حدود ۱۲۵ متر</span>
+</div>
+
+</div>
+
+<h4>سرمایش</h4>
+
+<p>
+در فاز دوم، سیستم سرمایش مرکزی پیش‌بینی شده است.
+در واحدهای قدیمی‌تر، نوع سیستم سرمایش با انتخاب مالک تعیین شده است.
+</p>
+
+<h4>وضعیت فاز دوم</h4>
+
+<p>
+بلوک‌های A13، A14، B13 و B14 در فاز دوم قرار دارند.
+B13 و B14 در مرحله تکمیل تأسیسات و نازک‌کاری هستند.
+A13 و A14 در بخش نما، پنجره‌ها و تیغه‌بندی در حال پیشرفت هستند.
+</p>
+
+<div class="price-box">
+
+<h3>قیمت‌های اعلام‌شده</h3>
+
+<div class="price-line">
+<span>واحدهای آماده تا ۱۱۸ متر</span>
+<strong>حدود ۱۸ تا ۲۲ میلیارد</strong>
+</div>
+
+<div class="price-line">
+<span>واحدهای ۱۲۰ تا ۱۳۵ متر</span>
+<strong>حدود ۲۰ تا ۲۶ میلیارد</strong>
+</div>
+
+<div class="price-line">
+<span>امتیاز کارکنان</span>
+<strong>حدود ۱۱ تا ۱۳ میلیارد</strong>
+</div>
+
+<div class="price-line">
+<span>پرداخت اعلام‌شده</span>
+<strong>حدود ۱.۷۶۰ میلیارد</strong>
+</div>
+
+<div class="price-line">
+<span>الحاقیه جدید</span>
+<strong>حدود ۵۰۰ میلیون</strong>
+</div>
+
+<div class="update">آخرین به‌روزرسانی اطلاعات قیمت: شهریور ۱۴۰۵</div>
+
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="tandgouyan" class="project-detail">
+<div class="container">
+
+<div class="section-head">
+<div class="eyebrow">Tandgouyan</div>
+<h2>شهرک تندگویان</h2>
+<p>اطلاعات کلی پروژه، بخش‌ها، وضعیت ساخت و قیمت‌های اعلام‌شده.</p>
+</div>
+
+<div class="detail-box">
+
+<h3>مشخصات کلی</h3>
+
+<div class="detail-grid">
+
+<div class="info">
+<strong>موقعیت</strong>
+<span>جنوب لشگری، شمال آزادراه تهران–کرج، غرب آزادگان، شرق چوگان</span>
+</div>
+
+<div class="info">
+<strong>تعداد واحد</strong>
+<span>حدود ۷۰۰۰ واحد</span>
+</div>
+
+<div class="info">
+<strong>تعداد طبقات</strong>
+<span>۱۱ طبقه مسکونی</span>
+</div>
+
+<div class="info">
+<strong>تعداد واحد در طبقه</strong>
+<span>۸ واحد</span>
+</div>
+
+<div class="info">
+<strong>آسانسور</strong>
+<span>۳ دستگاه</span>
+</div>
+
+<div class="info">
+<strong>پارکینگ و انباری</strong>
+<span>۱ پارکینگ و ۱ انباری</span>
+</div>
+
+<div class="info">
+<strong>متراژ پایه</strong>
+<span>حدود ۱۰۶ متر</span>
+</div>
+
+<div class="info">
+<strong>تعداد خواب</strong>
+<span>۲ خوابه</span>
+</div>
+
+</div>
+
+<h4>بخش‌های پروژه</h4>
+
+<p>
+پروژه در بخش‌های آرمان سپاه، سپاه تندگویان، انصار و شهرداری تقسیم شده است.
+</p>
+
+<h4>مشخصات واحدها</h4>
+
+<p>
+واحدها عموماً دوخوابه هستند و دارای دو سرویس، یک حمام،
+آشپزخانه باز، کابینت MDF، جزیره، تفکیک فضای پذیرایی و نشیمن
+و ورودی با حریم مناسب هستند.
+</p>
+
+<h4>تأسیسات و سرمایش</h4>
+
+<p>
+سرمایش با کولر سلولزی و گرمایش با رادیاتور انجام می‌شود
+و موتورخانه مرکزی برای ساختمان‌ها در نظر گرفته شده است.
+</p>
+
+<h4>وضعیت بخش‌ها</h4>
+
+<div class="detail-grid">
+
+<div class="info">
+<strong>انصار</strong>
+<span>آماده و تحویل‌شده در خرداد ۱۴۰۵</span>
+</div>
+
+<div class="info">
+<strong>سپاه تندگویان</strong>
+<span>سقف‌ها تکمیل و در مرحله تیغه‌بندی</span>
+</div>
+
+<div class="info">
+<strong>آرمان سپاه</strong>
+<span>در مرحله ساخت و تیغه‌بندی</span>
+</div>
+
+<div class="info">
+<strong>شهرداری</strong>
+<span>در حال اجرای سقف طبقه پنجم</span>
+</div>
+
+</div>
+
+<div class="price-box">
+
+<h3>قیمت‌های اعلام‌شده</h3>
+
+<div class="price-line">
+<span>انصار</span>
+<strong>حدود ۱۸ تا ۲۱ میلیارد</strong>
+</div>
+
+<div class="price-line">
+<span>آرمان سپاه</span>
+<strong>امتیاز حدود ۸ تا ۹ میلیارد + پرداخت ۱.۴۲۰ میلیارد</strong>
+</div>
+
+<div class="price-line">
+<span>سپاه تندگویان</span>
+<strong>امتیاز حدود ۷.۵ تا ۸.۲ میلیارد + پرداخت ۱.۵۲۰ میلیارد</strong>
+</div>
+
+<div class="price-line">
+<span>شهرداری</span>
+<strong>امتیاز حدود ۶.۹ تا ۷.۴ میلیارد + پرداخت ۱.۵ میلیارد</strong>
+</div>
+
+<div class="update">
+پرداخت‌های بعدی بخش سپاه تا زمان تحویل حدود ۲ میلیارد برآورد شده
+و پرداخت‌های شهرداری طبق برنامه سالانه انجام می‌شود.
+پرداخت سپاه معمولاً به‌صورت کسر از حقوق هر سه ماه انجام می‌شود.
+</div>
+
+<div class="update">آخرین به‌روزرسانی اطلاعات قیمت: شهریور ۱۴۰۵</div>
+
+</div>
+
+</div>
+</div>
 </section>
 
 <section id="listings">
+<div class="container">
 
-    <div class="container">
+<div class="section-head">
+<div class="eyebrow">PROPERTY</div>
+<h2>املاک موجود</h2>
+<p>قیمت‌ها و مشخصات این بخش قابل به‌روزرسانی هستند.</p>
+</div>
 
-        <div class="section-head">
-            <div class="eyebrow">PROPERTY</div>
-            <h2>املاک موجود</h2>
-            <p>
-                قیمت‌ها و مشخصات این بخش قابل به‌روزرسانی هستند.
-            </p>
-        </div>
+<div class="listing-grid">
 
-        <div class="filters">
+<article class="listing">
+<img src="images/property1.jpg" alt="ملک">
+<div class="listing-body">
+<h3>واحد مسکونی</h3>
+<p>اطلاعات ملک به‌زودی تکمیل می‌شود.</p>
+<div class="price">قیمت: در حال به‌روزرسانی</div>
+<div class="updated">آخرین به‌روزرسانی قیمت: —</div>
+</div>
+</article>
 
-            <select class="filter">
-                <option>همه مناطق</option>
-                <option>منطقه ۲۲</option>
-                <option>منطقه ۲۱</option>
-            </select>
+<article class="listing">
+<img src="images/property2.jpg" alt="ملک">
+<div class="listing-body">
+<h3>واحد مسکونی</h3>
+<p>اطلاعات ملک به‌زودی تکمیل می‌شود.</p>
+<div class="price">قیمت: در حال به‌روزرسانی</div>
+<div class="updated">آخرین به‌روزرسانی قیمت: —</div>
+</div>
+</article>
 
-            <select class="filter">
-                <option>همه انواع</option>
-                <option>فروش</option>
-                <option>امتیاز</option>
-            </select>
+<article class="listing">
+<img src="images/property3.jpg" alt="ملک">
+<div class="listing-body">
+<h3>ملک منتخب</h3>
+<p>اطلاعات ملک به‌زودی تکمیل می‌شود.</p>
+<div class="price">قیمت: در حال به‌روزرسانی</div>
+<div class="updated">آخرین به‌روزرسانی قیمت: —</div>
+</div>
+</article>
 
-        </div>
-
-        <div class="listing-grid">
-
-            <article class="listing">
-
-                <img src="images/property1.jpg" alt="ملک">
-
-                <div class="listing-body">
-
-                    <h3>واحد مسکونی</h3>
-
-                    <p>اطلاعات ملک به‌زودی تکمیل می‌شود.</p>
-
-                    <div class="price">قیمت: در حال به‌روزرسانی</div>
-
-                    <div class="updated">
-                        آخرین به‌روزرسانی قیمت: —
-                    </div>
-
-                </div>
-
-            </article>
-
-            <article class="listing">
-
-                <img src="images/property2.jpg" alt="ملک">
-
-                <div class="listing-body">
-
-                    <h3>واحد مسکونی</h3>
-
-                    <p>اطلاعات ملک به‌زودی تکمیل می‌شود.</p>
-
-                    <div class="price">قیمت: در حال به‌روزرسانی</div>
-
-                    <div class="updated">
-                        آخرین به‌روزرسانی قیمت: —
-                    </div>
-
-                </div>
-
-            </article>
-
-            <article class="listing">
-
-                <img src="images/property3.jpg" alt="ملک">
-
-                <div class="listing-body">
-
-                    <h3>ملک منتخب</h3>
-
-                    <p>اطلاعات ملک به‌زودی تکمیل می‌شود.</p>
-
-                    <div class="price">قیمت: در حال به‌روزرسانی</div>
-
-                    <div class="updated">
-                        آخرین به‌روزرسانی قیمت: —
-                    </div>
-
-                </div>
-
-            </article>
-
-        </div>
-
-    </div>
-
+</div>
+</div>
 </section>
 
 <section class="voice">
+<div class="container">
 
-    <div class="container">
+<div class="section-head">
+<div class="eyebrow">VOICE</div>
+<h2>توضیحات صوتی</h2>
+<p>توضیحات پروژه‌ها و نکات مهم را می‌توانید به‌صورت صوتی نیز بشنوید.</p>
+</div>
 
-        <div class="section-head">
-            <div class="eyebrow">VOICE</div>
-            <h2>توضیحات صوتی</h2>
-            <p>
-                توضیحات پروژه‌ها و نکات مهم را می‌توانید به‌صورت صوتی نیز بشنوید.
-            </p>
-        </div>
+<div class="voice-box">
 
-        <div class="voice-box">
+<p>توضیحات شهرک شهید خرازی</p>
 
-            <p>
-                توضیحات شهرک شهید خرازی
-            </p>
+<audio controls style="width:100%;max-width:650px;">
+<source src="audio/kharazi.mp3" type="audio/mpeg">
+مرورگر شما از پخش صوت پشتیبانی نمی‌کند.
+</audio>
 
-            <audio controls style="width:100%;max-width:650px;">
-                <source src="audio/kharazi.mp3" type="audio/mpeg">
-                مرورگر شما از پخش صوت پشتیبانی نمی‌کند.
-            </audio>
-
-        </div>
-
-    </div>
-
+</div>
+</div>
 </section>
 
 <section id="request">
+<div class="container">
 
-    <div class="container">
+<div class="section-head">
+<div class="eyebrow">REQUEST</div>
+<h2>دنبال چه ملکی هستید؟</h2>
+<p>مشخصات موردنظر خود را ارسال کنید تا بررسی شود.</p>
+</div>
 
-        <div class="section-head">
-            <div class="eyebrow">REQUEST</div>
-            <h2>دنبال چه ملکی هستید؟</h2>
-            <p>
-                مشخصات موردنظر خود را ارسال کنید تا بررسی شود.
-            </p>
-        </div>
+<div class="form-box">
 
-        <div class="form-box">
+<form onsubmit="sendRequest(event)">
 
-            <form onsubmit="sendRequest(event)">
+<div class="form-grid">
 
-                <div class="form-grid">
+<input type="text" id="name" placeholder="نام و نام خانوادگی" required>
 
-                    <input
-                        type="text"
-                        id="name"
-                        placeholder="نام و نام خانوادگی"
-                        required
-                    >
+<input type="tel" id="phone" placeholder="شماره تماس" required>
 
-                    <input
-                        type="tel"
-                        id="phone"
-                        placeholder="شماره تماس"
-                        required
-                    >
+<select id="type">
+<option>نوع درخواست</option>
+<option>خرید</option>
+<option>فروش</option>
+<option>امتیاز</option>
+</select>
 
-                    <select id="type">
-                        <option>نوع درخواست</option>
-                        <option>خرید</option>
-                        <option>فروش</option>
-                        <option>امتیاز</option>
-                    </select>
+<input type="text" id="area" placeholder="منطقه یا پروژه موردنظر">
 
-                    <input
-                        type="text"
-                        id="area"
-                        placeholder="منطقه یا پروژه موردنظر"
-                    >
+<textarea id="message" class="full" placeholder="توضیحات و شرایط موردنظر شما"></textarea>
 
-                    <textarea
-                        id="message"
-                        class="full"
-                        placeholder="توضیحات و شرایط موردنظر شما"
-                    ></textarea>
+<button class="btn gold full" type="submit">
+ارسال درخواست
+</button>
 
-                    <button class="btn gold full" type="submit">
-                        ارسال درخواست
-                    </button>
+</div>
+</form>
 
-                </div>
-
-            </form>
-
-        </div>
-
-    </div>
-
+</div>
+</div>
 </section>
 
 <section id="contact" class="contact">
+<div class="container">
 
-    <div class="container">
+<div class="eyebrow">CONTACT</div>
+<h2>ارتباط با پارسیان</h2>
 
-        <div class="eyebrow">CONTACT</div>
+<p>
+برای مشاوره و دریافت اطلاعات دقیق‌تر درباره املاک و پروژه‌های منتخب،
+با بهزاد پارسیان در تماس باشید.
+</p>
 
-        <h2>ارتباط با پارسیان</h2>
+<a class="btn gold" href="tel:09103920194">
+۰۹۱۰۳۹۲۰۱۹۴
+</a>
 
-        <p>
-            برای مشاوره و دریافت اطلاعات دقیق‌تر درباره املاک و پروژه‌های
-            منتخب، با بهزاد پارسیان در تماس باشید.
-        </p>
-
-        <a class="btn gold" href="tel:09103920194">
-            ۰۹۱۰۳۹۲۰۱۹۴
-        </a>
-
-    </div>
-
+</div>
 </section>
 
 </main>
 
 <footer>
-
-    <div class="container footer-inner">
-
-        <strong>پارسیان | املاک تخصصی</strong>
-
-        <small>
-            PARSIAN REAL ESTATE
-        </small>
-
-    </div>
-
+<div class="container footer-inner">
+<strong>پارسیان | املاک تخصصی</strong>
+<small>PARSIAN REAL ESTATE</small>
+</div>
 </footer>
 
 <div class="floating">
 
-    <a class="float-btn" href="tel:09103920194" aria-label="تماس">
-        تماس
-    </a>
+<a class="float-btn" href="tel:09103920194">تماس</a>
 
-    <a
-        class="float-btn"
-        href="https://wa.me/989103920194"
-        target="_blank"
-        aria-label="واتساپ"
-    >
-        واتساپ
-    </a>
+<a class="float-btn"
+href="https://wa.me/989103920194"
+target="_blank">
+واتساپ
+</a>
 
 </div>
 
 <div class="mobile-bar">
 
-    <a href="tel:09103920194">تماس</a>
+<a href="tel:09103920194">تماس</a>
 
-    <a href="https://wa.me/989103920194" target="_blank">
-        واتساپ
-    </a>
+<a href="https://wa.me/989103920194" target="_blank">
+واتساپ
+</a>
 
-    <a href="#request">درخواست ملک</a>
+<a href="#request">درخواست ملک</a>
 
 </div>
 
@@ -979,35 +951,27 @@ footer small{
 
 function sendRequest(event){
 
-    event.preventDefault();
+event.preventDefault();
 
-    const name =
-        document.getElementById("name").value;
+const name=document.getElementById("name").value;
+const phone=document.getElementById("phone").value;
+const type=document.getElementById("type").value;
+const area=document.getElementById("area").value;
+const message=document.getElementById("message").value;
 
-    const phone =
-        document.getElementById("phone").value;
+const text=
+"سلام، از طریق سایت پارسیان پیام می‌دهم.%0A%0A"+
+"نام: "+encodeURIComponent(name)+"%0A"+
+"شماره تماس: "+encodeURIComponent(phone)+"%0A"+
+"نوع درخواست: "+encodeURIComponent(type)+"%0A"+
+"منطقه/پروژه: "+encodeURIComponent(area)+"%0A"+
+"توضیحات: "+encodeURIComponent(message);
 
-    const type =
-        document.getElementById("type").value;
+window.open(
+"https://wa.me/989103920194?text="+text,
+"_blank"
+);
 
-    const area =
-        document.getElementById("area").value;
-
-    const message =
-        document.getElementById("message").value;
-
-    const text =
-        "سلام، از طریق سایت پارسیان پیام می‌دهم.%0A%0A" +
-        "نام: " + encodeURIComponent(name) + "%0A" +
-        "شماره تماس: " + encodeURIComponent(phone) + "%0A" +
-        "نوع درخواست: " + encodeURIComponent(type) + "%0A" +
-        "منطقه/پروژه: " + encodeURIComponent(area) + "%0A" +
-        "توضیحات: " + encodeURIComponent(message);
-
-    window.open(
-        "https://wa.me/989103920194?text=" + text,
-        "_blank"
-    );
 }
 
 </script>
