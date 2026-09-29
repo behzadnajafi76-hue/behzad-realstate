@@ -12,8 +12,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box
+}
+
+html{
+scroll-behavior:smooth
+}
 
 body{
 font-family:"Vazirmatn",sans-serif;
@@ -22,8 +30,17 @@ color:#fff;
 line-height:1.9
 }
 
-a{text-decoration:none;color:inherit}
-.container{width:min(1150px,92%);margin:auto}
+a{
+text-decoration:none;
+color:inherit
+}
+
+.container{
+width:min(1150px,92%);
+margin:auto
+}
+
+/* ================= HEADER ================= */
 
 header{
 position:sticky;
@@ -42,7 +59,11 @@ justify-content:space-between;
 gap:20px
 }
 
-.logo{display:flex;align-items:center;gap:12px}
+.logo{
+display:flex;
+align-items:center;
+gap:12px
+}
 
 .logo img{
 width:58px;
@@ -81,7 +102,11 @@ font-size:14px;
 transition:.25s
 }
 
-nav a:hover{color:#d4af37}
+nav a:hover{
+color:#d4af37
+}
+
+/* ================= BUTTON ================= */
 
 .btn{
 display:inline-flex;
@@ -106,7 +131,11 @@ background:#d4af37;
 color:#111
 }
 
-.btn.gold:hover{background:#e4c45c}
+.btn.gold:hover{
+background:#e4c45c
+}
+
+/* ================= HERO ================= */
 
 .hero{
 min-height:680px;
@@ -117,7 +146,9 @@ linear-gradient(rgba(5,25,17,.72),rgba(5,25,17,.92)),
 url("images/hero.jpg") center/cover
 }
 
-.hero-content{max-width:780px}
+.hero-content{
+max-width:780px
+}
 
 .eyebrow{
 color:#d4af37;
@@ -132,7 +163,9 @@ line-height:1.35;
 margin-bottom:20px
 }
 
-.hero h1 span{color:#d4af37}
+.hero h1 span{
+color:#d4af37
+}
 
 .hero p{
 color:#ddd;
@@ -147,16 +180,30 @@ flex-wrap:wrap;
 gap:12px
 }
 
-section{padding:85px 0}
+/* ================= GENERAL SECTIONS ================= */
 
-.section-head{margin-bottom:38px}
+section{
+padding:85px 0
+}
+
+.section-head{
+margin-bottom:38px
+}
 
 .section-head h2{
 font-size:32px;
 margin-bottom:10px
 }
 
-.section-head p{color:#aaa}
+.section-head p{
+color:#aaa
+}
+
+/* ================= ABOUT ================= */
+
+#about{
+background:#071F15
+}
 
 .about-grid{
 display:grid;
@@ -185,7 +232,7 @@ margin-top:30px
 }
 
 .stat{
-background:#123d2a;
+background:#071A12;
 border:1px solid rgba(212,175,55,.16);
 padding:22px;
 border-radius:12px;
@@ -203,7 +250,11 @@ color:#aaa;
 font-size:13px
 }
 
-.projects{background:#08271a}
+/* ================= PROJECTS ================= */
+
+.projects{
+background:#061B12
+}
 
 .cards{
 display:grid;
@@ -212,7 +263,7 @@ gap:25px
 }
 
 .card{
-background:#123d2a;
+background:#0A2418;
 border:1px solid rgba(212,175,55,.15);
 border-radius:15px;
 overflow:hidden
@@ -225,7 +276,9 @@ object-fit:cover;
 display:block
 }
 
-.card-body{padding:25px}
+.card-body{
+padding:25px
+}
 
 .card-body h3{
 color:#d4af37;
@@ -252,13 +305,15 @@ color:#ddd;
 font-size:12px
 }
 
+/* ================= PROJECT DETAILS ================= */
+
 .project-detail{
-background:#0A2B1D;
+background:#061B12;
 border-top:1px solid rgba(212,175,55,.08)
 }
 
 .detail-box{
-background:#123d2a;
+background:#0A2418;
 border:1px solid rgba(212,175,55,.14);
 border-radius:15px;
 padding:30px;
@@ -289,7 +344,7 @@ margin-top:20px
 }
 
 .info{
-background:#0B2F20;
+background:#071A12;
 border:1px solid rgba(255,255,255,.08);
 border-radius:10px;
 padding:15px
@@ -307,14 +362,16 @@ font-size:14px
 }
 
 .price-box{
-background:#0B2F20;
+background:#071A12;
 border:1px solid rgba(212,175,55,.2);
 border-radius:12px;
 padding:20px;
 margin-top:18px
 }
 
-.price-box strong{color:#d4af37}
+.price-box strong{
+color:#d4af37
+}
 
 .price-line{
 display:flex;
@@ -325,12 +382,20 @@ border-bottom:1px solid rgba(255,255,255,.06);
 color:#ddd
 }
 
-.price-line:last-child{border-bottom:0}
+.price-line:last-child{
+border-bottom:0
+}
 
 .update{
 font-size:12px;
 color:#888;
 margin-top:12px
+}
+
+/* ================= LISTINGS ================= */
+
+#listings{
+background:#071F15
 }
 
 .listing-grid{
@@ -340,7 +405,7 @@ gap:20px
 }
 
 .listing{
-background:#123d2a;
+background:#0A2418;
 border-radius:13px;
 overflow:hidden;
 border:1px solid rgba(212,175,55,.14)
@@ -352,7 +417,9 @@ height:210px;
 object-fit:cover
 }
 
-.listing-body{padding:20px}
+.listing-body{
+padding:20px
+}
 
 .listing-body h3{
 color:#fff;
@@ -371,9 +438,14 @@ color:#888;
 font-size:11px
 }
 
-.voice{background:#123d2a}
+/* ================= VOICE ================= */
+
+.voice{
+background:#061B12
+}
 
 .voice-box{
+background:#0A2418;
 border:1px solid rgba(212,175,55,.18);
 border-radius:15px;
 padding:30px;
@@ -385,10 +457,16 @@ color:#ccc;
 margin-bottom:20px
 }
 
+/* ================= REQUEST FORM ================= */
+
+#request{
+background:#071F15
+}
+
 .form-box{
 max-width:750px;
 margin:auto;
-background:#123d2a;
+background:#0A2418;
 border:1px solid rgba(212,175,55,.15);
 padding:30px;
 border-radius:15px
@@ -400,9 +478,11 @@ grid-template-columns:1fr 1fr;
 gap:15px
 }
 
-input,select,textarea{
+input,
+select,
+textarea{
 width:100%;
-background:#0B2F20;
+background:#071A12;
 border:1px solid rgba(255,255,255,.12);
 color:#fff;
 padding:13px;
@@ -410,16 +490,30 @@ border-radius:7px;
 font-family:inherit
 }
 
+input::placeholder,
+textarea::placeholder{
+color:#888
+}
+
+select option{
+background:#071A12;
+color:#fff
+}
+
 textarea{
 min-height:130px;
 resize:vertical
 }
 
-.full{grid-column:1/-1}
+.full{
+grid-column:1/-1
+}
+
+/* ================= CONTACT ================= */
 
 .contact{
 text-align:center;
-background:#08271a
+background:#061B12
 }
 
 .contact p{
@@ -428,10 +522,12 @@ margin:15px auto 25px;
 max-width:650px
 }
 
+/* ================= FOOTER ================= */
+
 footer{
 padding:30px 0;
 border-top:1px solid rgba(212,175,55,.15);
-background:#061F15
+background:#04140D
 }
 
 .footer-inner{
@@ -441,8 +537,15 @@ gap:20px;
 align-items:center
 }
 
-footer strong{color:#d4af37}
-footer small{color:#777}
+footer strong{
+color:#d4af37
+}
+
+footer small{
+color:#777
+}
+
+/* ================= FLOATING BUTTONS ================= */
 
 .floating{
 position:fixed;
@@ -467,6 +570,8 @@ font-weight:700;
 box-shadow:0 5px 20px rgba(0,0,0,.3)
 }
 
+/* ================= MOBILE BAR ================= */
+
 .mobile-bar{
 display:none;
 position:fixed;
@@ -474,7 +579,7 @@ bottom:0;
 right:0;
 left:0;
 z-index:999;
-background:#0B2F20;
+background:#061B12;
 border-top:1px solid rgba(212,175,55,.2)
 }
 
@@ -486,11 +591,17 @@ font-size:12px;
 color:#ddd
 }
 
-.mobile-bar a:last-child{color:#d4af37}
+.mobile-bar a:last-child{
+color:#d4af37
+}
+
+/* ================= RESPONSIVE ================= */
 
 @media(max-width:800px){
 
-nav{display:none}
+nav{
+display:none
+}
 
 .about-grid,
 .cards{
@@ -513,11 +624,17 @@ grid-template-columns:1fr
 grid-template-columns:1fr
 }
 
-.full{grid-column:auto}
+.full{
+grid-column:auto
+}
 
-.mobile-bar{display:flex}
+.mobile-bar{
+display:flex
+}
 
-.floating{bottom:70px}
+.floating{
+bottom:70px
+}
 
 .footer-inner{
 flex-direction:column;
@@ -528,19 +645,29 @@ text-align:center
 
 @media(max-width:500px){
 
-.hero{min-height:600px}
+.hero{
+min-height:600px
+}
 
-.stats{grid-template-columns:1fr}
+.stats{
+grid-template-columns:1fr
+}
 
-section{padding:65px 0}
+section{
+padding:65px 0
+}
 
 }
+
 </style>
 </head>
 
 <body>
 
+<!-- ================= HEADER ================= -->
+
 <header>
+
 <div class="container nav">
 
 <a href="#" class="logo">
@@ -568,12 +695,19 @@ section{padding:65px 0}
 
 </nav>
 
-<a class="btn" href="tel:09103920194">تماس با ما</a>
+<a class="btn" href="tel:09103920194">
+تماس با ما
+</a>
 
 </div>
+
 </header>
 
+<!-- ================= MAIN ================= -->
+
 <main>
+
+<!-- ================= HERO ================= -->
 
 <section class="hero">
 
@@ -581,9 +715,13 @@ section{padding:65px 0}
 
 <div class="hero-content">
 
-<div class="eyebrow">PARSIAN REAL ESTATE</div>
+<div class="eyebrow">
+PARSIAN REAL ESTATE
+</div>
 
-<h1>ملک مناسب را <span>دقیق‌تر پیدا کن</span></h1>
+<h1>
+ملک مناسب را <span>دقیق‌تر پیدا کن</span>
+</h1>
 
 <p>
 پارسیان، با تمرکز تخصصی بر بازار املاک منطقه ۲۲
@@ -592,15 +730,23 @@ section{padding:65px 0}
 
 <div class="hero-actions">
 
-<a class="btn gold" href="#listings">دنبال ملک هستم</a>
+<a class="btn gold" href="#listings">
+دنبال ملک هستم
+</a>
 
-<a class="btn" href="#request">مالک هستم</a>
+<a class="btn" href="#request">
+مالک هستم
+</a>
 
 </div>
 
 </div>
+
 </div>
+
 </section>
+
+<!-- ================= ABOUT ================= -->
 
 <section id="about">
 
@@ -610,15 +756,23 @@ section{padding:65px 0}
 
 <div>
 
-<img class="profile" src="images/profile.jpg" alt="بهزاد پارسیان">
+<img
+class="profile"
+src="images/profile.jpg"
+alt="بهزاد پارسیان"
+>
 
 </div>
 
 <div class="about-text">
 
-<div class="eyebrow">PARSIAN REAL ESTATE</div>
+<div class="eyebrow">
+PARSIAN REAL ESTATE
+</div>
 
-<h2>پارسیان | املاک تخصصی</h2>
+<h2>
+پارسیان | املاک تخصصی
+</h2>
 
 <p>
 من <strong>بهزاد پارسیان</strong> هستم؛ مشاور تخصصی املاک
@@ -633,26 +787,46 @@ section{padding:65px 0}
 <div class="stats">
 
 <div class="stat">
+
 <strong>۴۴</strong>
-<span>بلوک شهرک خرازی</span>
+
+<span>
+بلوک شهرک خرازی
+</span>
+
 </div>
 
 <div class="stat">
+
 <strong>۵</strong>
-<span>ردیف شهرک خرازی</span>
+
+<span>
+ردیف شهرک خرازی
+</span>
+
 </div>
 
 <div class="stat">
+
 <strong>۲۲</strong>
-<span>منطقه تخصصی</span>
+
+<span>
+منطقه تخصصی
+</span>
+
+</div>
+
 </div>
 
 </div>
 
 </div>
+
 </div>
-</div>
+
 </section>
+
+<!-- ================= PROJECTS ================= -->
 
 <section id="projects" class="projects">
 
@@ -660,9 +834,13 @@ section{padding:65px 0}
 
 <div class="section-head">
 
-<div class="eyebrow">PROJECTS</div>
+<div class="eyebrow">
+PROJECTS
+</div>
 
-<h2>پروژه‌های منتخب</h2>
+<h2>
+پروژه‌های منتخب
+</h2>
 
 <p>
 اطلاعات پروژه‌ها بر اساس وضعیت واقعی هر پروژه تکمیل و به‌روزرسانی می‌شود.
@@ -674,11 +852,16 @@ section{padding:65px 0}
 
 <article class="card">
 
-<img src="images/kharazi.jpg" alt="شهرک شهید خرازی">
+<img
+src="images/kharazi.jpg"
+alt="شهرک شهید خرازی"
+>
 
 <div class="card-body">
 
-<h3>شهرک شهید خرازی</h3>
+<h3>
+شهرک شهید خرازی
+</h3>
 
 <p>
 ۴۴ بلوک در ۵ ردیف، با بررسی ساختار بلوک‌ها،
@@ -695,18 +878,26 @@ section{padding:65px 0}
 
 <br>
 
-<a class="btn" href="#kharazi">مشاهده اطلاعات</a>
+<a class="btn" href="#kharazi">
+مشاهده اطلاعات
+</a>
 
 </div>
+
 </article>
 
 <article class="card">
 
-<img src="images/property1.jpg" alt="شهرک تندگویان">
+<img
+src="images/property1.jpg"
+alt="شهرک تندگویان"
+>
 
 <div class="card-body">
 
-<h3>شهرک تندگویان</h3>
+<h3>
+شهرک تندگویان
+</h3>
 
 <p>
 پروژه‌ای حدود ۷۰۰۰ واحدی با بخش‌های مختلف
@@ -723,14 +914,21 @@ section{padding:65px 0}
 
 <br>
 
-<a class="btn" href="#tandgouyan">مشاهده اطلاعات</a>
+<a class="btn" href="#tandgouyan">
+مشاهده اطلاعات
+</a>
 
 </div>
+
 </article>
 
 </div>
+
 </div>
+
 </section>
+
+<!-- ================= KHARAZI ================= -->
 
 <section id="kharazi" class="project-detail">
 
@@ -738,9 +936,13 @@ section{padding:65px 0}
 
 <div class="section-head">
 
-<div class="eyebrow">Kharazi</div>
+<div class="eyebrow">
+Kharazi
+</div>
 
-<h2>شهرک شهید خرازی</h2>
+<h2>
+شهرک شهید خرازی
+</h2>
 
 <p>
 اطلاعات ساختاری، واحدها، وضعیت پروژه و قیمت‌های اعلام‌شده.
@@ -750,7 +952,9 @@ section{padding:65px 0}
 
 <div class="detail-box">
 
-<h3>ساختار شهرک</h3>
+<h3>
+ساختار شهرک
+</h3>
 
 <div class="detail-grid">
 
@@ -796,7 +1000,9 @@ section{padding:65px 0}
 
 </div>
 
-<h4>اطلاعات واحدها</h4>
+<h4>
+اطلاعات واحدها
+</h4>
 
 <p>
 بخش قابل توجهی از واحدها دوخوابه هستند. متراژ واحدها بسته به بلوک
@@ -827,14 +1033,18 @@ section{padding:65px 0}
 
 </div>
 
-<h4>سرمایش</h4>
+<h4>
+سرمایش
+</h4>
 
 <p>
 در فاز دوم، سیستم سرمایش مرکزی پیش‌بینی شده است.
 در واحدهای قدیمی‌تر، نوع سیستم سرمایش با انتخاب مالک تعیین شده است.
 </p>
 
-<h4>وضعیت فاز دوم</h4>
+<h4>
+وضعیت فاز دوم
+</h4>
 
 <p>
 بلوک‌های A13، A14، B13 و B14 در فاز دوم قرار دارند.
@@ -844,31 +1054,68 @@ A13 و A14 در بخش نما، پنجره‌ها و تیغه‌بندی در ح
 
 <div class="price-box">
 
-<h3>قیمت‌های اعلام‌شده</h3>
+<h3>
+قیمت‌های اعلام‌شده
+</h3>
 
 <div class="price-line">
-<span>واحدهای آماده تا ۱۱۸ متر</span>
-<strong>حدود ۱۸ تا ۲۲ میلیارد</strong>
+
+<span>
+واحدهای آماده تا ۱۱۸ متر
+</span>
+
+<strong>
+حدود ۱۸ تا ۲۲ میلیارد
+</strong>
+
 </div>
 
 <div class="price-line">
-<span>واحدهای ۱۲۰ تا ۱۳۵ متر</span>
-<strong>حدود ۲۰ تا ۲۶ میلیارد</strong>
+
+<span>
+واحدهای ۱۲۰ تا ۱۳۵ متر
+</span>
+
+<strong>
+حدود ۲۰ تا ۲۶ میلیارد
+</strong>
+
 </div>
 
 <div class="price-line">
-<span>امتیاز کارکنان</span>
-<strong>حدود ۱۱ تا ۱۳ میلیارد</strong>
+
+<span>
+امتیاز کارکنان
+</span>
+
+<strong>
+حدود ۱۱ تا ۱۳ میلیارد
+</strong>
+
 </div>
 
 <div class="price-line">
-<span>پرداخت اعلام‌شده</span>
-<strong>حدود ۱.۷۶۰ میلیارد</strong>
+
+<span>
+پرداخت اعلام‌شده
+</span>
+
+<strong>
+حدود ۱.۷۶۰ میلیارد
+</strong>
+
 </div>
 
 <div class="price-line">
-<span>الحاقیه جدید</span>
-<strong>حدود ۵۰۰ میلیون</strong>
+
+<span>
+الحاقیه جدید
+</span>
+
+<strong>
+حدود ۵۰۰ میلیون
+</strong>
+
 </div>
 
 <div class="update">
@@ -878,8 +1125,12 @@ A13 و A14 در بخش نما، پنجره‌ها و تیغه‌بندی در ح
 </div>
 
 </div>
+
 </div>
+
 </section>
+
+<!-- ================= TANDGOUYAN ================= -->
 
 <section id="tandgouyan" class="project-detail">
 
@@ -887,9 +1138,13 @@ A13 و A14 در بخش نما، پنجره‌ها و تیغه‌بندی در ح
 
 <div class="section-head">
 
-<div class="eyebrow">Tandgouyan</div>
+<div class="eyebrow">
+Tandgouyan
+</div>
 
-<h2>شهرک تندگویان</h2>
+<h2>
+شهرک تندگویان
+</h2>
 
 <p>
 اطلاعات کلی پروژه، بخش‌ها، وضعیت ساخت و قیمت‌های اعلام‌شده.
@@ -899,59 +1154,81 @@ A13 و A14 در بخش نما، پنجره‌ها و تیغه‌بندی در ح
 
 <div class="detail-box">
 
-<h3>مشخصات کلی</h3>
+<h3>
+مشخصات کلی
+</h3>
 
 <div class="detail-grid">
 
 <div class="info">
 <strong>موقعیت</strong>
-<span>جنوب لشگری، شمال آزادراه تهران–کرج، غرب آزادگان، شرق چوگان</span>
+<span>
+جنوب لشگری، شمال آزادراه تهران–کرج، غرب آزادگان، شرق چوگان
+</span>
 </div>
 
 <div class="info">
 <strong>تعداد واحد</strong>
-<span>حدود ۷۰۰۰ واحد</span>
+<span>
+حدود ۷۰۰۰ واحد
+</span>
 </div>
 
 <div class="info">
 <strong>تعداد طبقات</strong>
-<span>۱۱ طبقه مسکونی</span>
+<span>
+۱۱ طبقه مسکونی
+</span>
 </div>
 
 <div class="info">
 <strong>تعداد واحد در طبقه</strong>
-<span>۸ واحد</span>
+<span>
+۸ واحد
+</span>
 </div>
 
 <div class="info">
 <strong>آسانسور</strong>
-<span>۳ دستگاه</span>
+<span>
+۳ دستگاه
+</span>
 </div>
 
 <div class="info">
 <strong>پارکینگ و انباری</strong>
-<span>۱ پارکینگ و ۱ انباری</span>
+<span>
+۱ پارکینگ و ۱ انباری
+</span>
 </div>
 
 <div class="info">
 <strong>متراژ پایه</strong>
-<span>حدود ۱۰۶ متر</span>
+<span>
+حدود ۱۰۶ متر
+</span>
 </div>
 
 <div class="info">
 <strong>تعداد خواب</strong>
-<span>۲ خوابه</span>
+<span>
+۲ خوابه
+</span>
 </div>
 
 </div>
 
-<h4>بخش‌های پروژه</h4>
+<h4>
+بخش‌های پروژه
+</h4>
 
 <p>
 پروژه در بخش‌های آرمان سپاه، سپاه تندگویان، انصار و شهرداری تقسیم شده است.
 </p>
 
-<h4>مشخصات واحدها</h4>
+<h4>
+مشخصات واحدها
+</h4>
 
 <p>
 واحدها عموماً دوخوابه هستند و دارای دو سرویس، یک حمام،
@@ -959,61 +1236,103 @@ A13 و A14 در بخش نما، پنجره‌ها و تیغه‌بندی در ح
 و ورودی با حریم مناسب هستند.
 </p>
 
-<h4>تأسیسات و سرمایش</h4>
+<h4>
+تأسیسات و سرمایش
+</h4>
 
 <p>
 سرمایش با کولر سلولزی و گرمایش با رادیاتور انجام می‌شود
 و موتورخانه مرکزی برای ساختمان‌ها در نظر گرفته شده است.
 </p>
 
-<h4>وضعیت بخش‌ها</h4>
+<h4>
+وضعیت بخش‌ها
+</h4>
 
 <div class="detail-grid">
 
 <div class="info">
 <strong>انصار</strong>
-<span>آماده و تحویل‌شده در خرداد ۱۴۰۵</span>
+<span>
+آماده و تحویل‌شده در خرداد ۱۴۰۵
+</span>
 </div>
 
 <div class="info">
 <strong>سپاه تندگویان</strong>
-<span>سقف‌ها تکمیل و در مرحله تیغه‌بندی</span>
+<span>
+سقف‌ها تکمیل و در مرحله تیغه‌بندی
+</span>
 </div>
 
 <div class="info">
 <strong>آرمان سپاه</strong>
-<span>در مرحله ساخت و تیغه‌بندی</span>
+<span>
+در مرحله ساخت و تیغه‌بندی
+</span>
 </div>
 
 <div class="info">
 <strong>شهرداری</strong>
-<span>در حال اجرای سقف طبقه پنجم</span>
+<span>
+در حال اجرای سقف طبقه پنجم
+</span>
 </div>
 
 </div>
 
 <div class="price-box">
 
-<h3>قیمت‌های اعلام‌شده</h3>
+<h3>
+قیمت‌های اعلام‌شده
+</h3>
 
 <div class="price-line">
-<span>انصار</span>
-<strong>حدود ۱۸ تا ۲۱ میلیارد</strong>
+
+<span>
+انصار
+</span>
+
+<strong>
+حدود ۱۸ تا ۲۱ میلیارد
+</strong>
+
 </div>
 
 <div class="price-line">
-<span>آرمان سپاه</span>
-<strong>امتیاز حدود ۸ تا ۹ میلیارد + پرداخت ۱.۴۲۰ میلیارد</strong>
+
+<span>
+آرمان سپاه
+</span>
+
+<strong>
+امتیاز حدود ۸ تا ۹ میلیارد + پرداخت ۱.۴۲۰ میلیارد
+</strong>
+
 </div>
 
 <div class="price-line">
-<span>سپاه تندگویان</span>
-<strong>امتیاز حدود ۷.۵ تا ۸.۲ میلیارد + پرداخت ۱.۵۲۰ میلیارد</strong>
+
+<span>
+سپاه تندگویان
+</span>
+
+<strong>
+امتیاز حدود ۷.۵ تا ۸.۲ میلیارد + پرداخت ۱.۵۲۰ میلیارد
+</strong>
+
 </div>
 
 <div class="price-line">
-<span>شهرداری</span>
-<strong>امتیاز حدود ۶.۹ تا ۷.۴ میلیارد + پرداخت ۱.۵ میلیارد</strong>
+
+<span>
+شهرداری
+</span>
+
+<strong>
+امتیاز حدود ۶.۹ تا ۷.۴ میلیارد + پرداخت ۱.۵ میلیارد
+</strong>
+
 </div>
 
 <div class="update">
@@ -1029,8 +1348,12 @@ A13 و A14 در بخش نما، پنجره‌ها و تیغه‌بندی در ح
 </div>
 
 </div>
+
 </div>
+
 </section>
+
+<!-- ================= LISTINGS ================= -->
 
 <section id="listings">
 
@@ -1038,9 +1361,13 @@ A13 و A14 در بخش نما، پنجره‌ها و تیغه‌بندی در ح
 
 <div class="section-head">
 
-<div class="eyebrow">PROPERTY</div>
+<div class="eyebrow">
+PROPERTY
+</div>
 
-<h2>املاک موجود</h2>
+<h2>
+املاک موجود
+</h2>
 
 <p>
 قیمت‌ها و مشخصات این بخش قابل به‌روزرسانی هستند.
@@ -1052,13 +1379,20 @@ A13 و A14 در بخش نما، پنجره‌ها و تیغه‌بندی در ح
 
 <article class="listing">
 
-<img src="images/property1.jpg" alt="ملک">
+<img
+src="images/property1.jpg"
+alt="ملک"
+>
 
 <div class="listing-body">
 
-<h3>واحد مسکونی</h3>
+<h3>
+واحد مسکونی
+</h3>
 
-<p>اطلاعات ملک به‌زودی تکمیل می‌شود.</p>
+<p>
+اطلاعات ملک به‌زودی تکمیل می‌شود.
+</p>
 
 <div class="price">
 قیمت: در حال به‌روزرسانی
@@ -1069,17 +1403,25 @@ A13 و A14 در بخش نما، پنجره‌ها و تیغه‌بندی در ح
 </div>
 
 </div>
+
 </article>
 
 <article class="listing">
 
-<img src="images/property2.jpg" alt="ملک">
+<img
+src="images/property2.jpg"
+alt="ملک"
+>
 
 <div class="listing-body">
 
-<h3>واحد مسکونی</h3>
+<h3>
+واحد مسکونی
+</h3>
 
-<p>اطلاعات ملک به‌زودی تکمیل می‌شود.</p>
+<p>
+اطلاعات ملک به‌زودی تکمیل می‌شود.
+</p>
 
 <div class="price">
 قیمت: در حال به‌روزرسانی
@@ -1090,17 +1432,25 @@ A13 و A14 در بخش نما، پنجره‌ها و تیغه‌بندی در ح
 </div>
 
 </div>
+
 </article>
 
 <article class="listing">
 
-<img src="images/property3.jpg" alt="ملک">
+<img
+src="images/property3.jpg"
+alt="ملک"
+>
 
 <div class="listing-body">
 
-<h3>ملک منتخب</h3>
+<h3>
+ملک منتخب
+</h3>
 
-<p>اطلاعات ملک به‌زودی تکمیل می‌شود.</p>
+<p>
+اطلاعات ملک به‌زودی تکمیل می‌شود.
+</p>
 
 <div class="price">
 قیمت: در حال به‌روزرسانی
@@ -1111,11 +1461,16 @@ A13 و A14 در بخش نما، پنجره‌ها و تیغه‌بندی در ح
 </div>
 
 </div>
+
 </article>
 
 </div>
+
 </div>
+
 </section>
+
+<!-- ================= VOICE ================= -->
 
 <section class="voice">
 
@@ -1123,9 +1478,13 @@ A13 و A14 در بخش نما، پنجره‌ها و تیغه‌بندی در ح
 
 <div class="section-head">
 
-<div class="eyebrow">VOICE</div>
+<div class="eyebrow">
+VOICE
+</div>
 
-<h2>توضیحات صوتی</h2>
+<h2>
+توضیحات صوتی
+</h2>
 
 <p>
 توضیحات پروژه‌ها و نکات مهم را می‌توانید به‌صورت صوتی نیز بشنوید.
@@ -1135,7 +1494,9 @@ A13 و A14 در بخش نما، پنجره‌ها و تیغه‌بندی در ح
 
 <div class="voice-box">
 
-<p>توضیحات شهرک شهید خرازی</p>
+<p>
+توضیحات شهرک شهید خرازی
+</p>
 
 <audio controls style="width:100%;max-width:650px;">
 
@@ -1146,8 +1507,12 @@ A13 و A14 در بخش نما، پنجره‌ها و تیغه‌بندی در ح
 </audio>
 
 </div>
+
 </div>
+
 </section>
+
+<!-- ================= REQUEST ================= -->
 
 <section id="request">
 
@@ -1155,9 +1520,13 @@ A13 و A14 در بخش نما، پنجره‌ها و تیغه‌بندی در ح
 
 <div class="section-head">
 
-<div class="eyebrow">REQUEST</div>
+<div class="eyebrow">
+REQUEST
+</div>
 
-<h2>دنبال چه ملکی هستید؟</h2>
+<h2>
+دنبال چه ملکی هستید؟
+</h2>
 
 <p>
 مشخصات موردنظر خود را ارسال کنید تا بررسی شود.
@@ -1171,91 +1540,162 @@ A13 و A14 در بخش نما، پنجره‌ها و تیغه‌بندی در ح
 
 <div class="form-grid">
 
-<input type="text" id="name" placeholder="نام و نام خانوادگی" required>
+<input
+type="text"
+id="name"
+placeholder="نام و نام خانوادگی"
+required
+>
 
-<input type="tel" id="phone" placeholder="شماره تماس" required>
+<input
+type="tel"
+id="phone"
+placeholder="شماره تماس"
+required
+>
 
 <select id="type">
 
-<option>نوع درخواست</option>
-<option>خرید</option>
-<option>فروش</option>
-<option>امتیاز</option>
+<option>
+نوع درخواست
+</option>
+
+<option>
+خرید
+</option>
+
+<option>
+فروش
+</option>
+
+<option>
+امتیاز
+</option>
 
 </select>
 
-<input type="text" id="area" placeholder="منطقه یا پروژه موردنظر">
+<input
+type="text"
+id="area"
+placeholder="منطقه یا پروژه موردنظر"
+>
 
-<textarea id="message" class="full" placeholder="توضیحات و شرایط موردنظر شما"></textarea>
+<textarea
+id="message"
+class="full"
+placeholder="توضیحات و شرایط موردنظر شما"
+></textarea>
 
-<button class="btn gold full" type="submit">
+<button
+class="btn gold full"
+type="submit"
+>
 ارسال درخواست
 </button>
 
 </div>
+
 </form>
 
 </div>
+
 </div>
+
 </section>
+
+<!-- ================= CONTACT ================= -->
 
 <section id="contact" class="contact">
 
 <div class="container">
 
-<div class="eyebrow">CONTACT</div>
+<div class="eyebrow">
+CONTACT
+</div>
 
-<h2>ارتباط با پارسیان</h2>
+<h2>
+ارتباط با پارسیان
+</h2>
 
 <p>
 برای مشاوره و دریافت اطلاعات دقیق‌تر درباره املاک و پروژه‌های منتخب،
 با بهزاد پارسیان در تماس باشید.
 </p>
 
-<a class="btn gold" href="tel:09103920194">
+<a
+class="btn gold"
+href="tel:09103920194"
+>
 ۰۹۱۰۳۹۲۰۱۹۴
 </a>
 
 </div>
+
 </section>
 
 </main>
+
+<!-- ================= FOOTER ================= -->
 
 <footer>
 
 <div class="container footer-inner">
 
-<strong>پارسیان | املاک تخصصی</strong>
+<strong>
+پارسیان | املاک تخصصی
+</strong>
 
-<small>PARSIAN REAL ESTATE</small>
+<small>
+PARSIAN REAL ESTATE
+</small>
 
 </div>
 
 </footer>
 
+<!-- ================= FLOATING BUTTONS ================= -->
+
 <div class="floating">
 
-<a class="float-btn" href="tel:09103920194">تماس</a>
+<a
+class="float-btn"
+href="tel:09103920194"
+>
+تماس
+</a>
 
-<a class="float-btn"
+<a
+class="float-btn"
 href="https://wa.me/989103920194"
-target="_blank">
+target="_blank"
+>
 واتساپ
 </a>
 
 </div>
+
+<!-- ================= MOBILE BAR ================= -->
 
 <div class="mobile-bar">
 
-<a href="tel:09103920194">تماس</a>
+<a href="tel:09103920194">
+تماس
+</a>
 
-<a href="https://wa.me/989103920194" target="_blank">
+<a
+href="https://wa.me/989103920194"
+target="_blank"
+>
 واتساپ
 </a>
 
-<a href="#request">درخواست ملک</a>
+<a href="#request">
+درخواست ملک
+</a>
 
 </div>
+
+<!-- ================= SCRIPT ================= -->
 
 <script>
 
